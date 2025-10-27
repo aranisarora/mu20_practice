@@ -1,0 +1,5 @@
+fetch('https://nokia199.app.n8n.cloud/webhook/55f795c0-3aa0-4004-8cc9-c64f95df7452/:biz-agent', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify({ param1: planText })
+});
